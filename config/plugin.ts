@@ -5,10 +5,18 @@ const plugin: EggPlugin = {
   // nunjucks: {
   //   enable: true,
   //   package: 'egg-view-nunjucks',
-  // },  
+  // },
   mysql: {
     enable: true,
-    package: "egg-mysql",
+    package: 'egg-mysql',
+  },
+  passport: {
+    enable: true,
+    package: 'egg-passport',
+  },
+  passportLocal: {
+    enable: true,
+    package: 'egg-passport-local',
   },
 };
 
