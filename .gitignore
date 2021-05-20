@@ -18,3 +18,8 @@ config/**/*.js
 app/**/*.map
 test/**/*.map
 config/**/*.map
+gitlog.txt
+package-lock.json
+.github
+.travis.yml
+appveyor.yml

@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "egg": "^2.6.1",
+    "egg-mysql": "^3.0.0",
     "egg-scripts": "^2.6.0"
   },
   "devDependencies": {
@@ -49,7 +50,9 @@
     "type": "git",
     "url": ""
   },
-  "eslintIgnore": ["coverage"],
+  "eslintIgnore": [
+    "coverage"
+  ],
   "author": "",
   "license": "MIT"
 }
